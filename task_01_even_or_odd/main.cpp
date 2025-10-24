@@ -11,7 +11,6 @@ int main() {
         cout << "Even";
     else
         cout << "Odd";
-
     // TODO: print "even" or "odd"
     return 0;
 }

@@ -2,15 +2,14 @@
 #include <iostream>
 using namespace std;
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+
     long long n;
-    cout << "Enter the number of terms you want to find: ";
+    cout << "Enter random number : ";
     cin >> n;
     if (n % 2 == 0)
-        cout << "Even";
+        cout << "Number is even";
     else
-        cout << "Odd";
+        cout << "Number is odd";
     // TODO: print "even" or "odd"
     return 0;
 }

@@ -1,10 +1,17 @@
 
 #include <iostream>
+using namespace std;
 int main() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-    unsigned long long n;
-    if (!(std::cin >> n)) return 0;
-    // TODO: reverse using % and /, not strings
+
+    long long n, cis = 0;
+
+    cout << "Zadaj cislo ";
+    cin >> n;
+
+    do {
+        n = n *
+            n /
+    } while (n > 0);
+
     return 0;
 }

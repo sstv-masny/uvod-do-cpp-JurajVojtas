@@ -2,8 +2,14 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int n[5] = {1, 2, 3, 4, 5};
-    cout << n[3];
-    // TODO: read n values in [0,100], count, and print only those with count>0 in ascending value
+
+    int n[] = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6, 7};
+
+    cout << sizeof(n) / 4;
+
+    for (int i = 0; i < 12; i++) {
+        cout << n[i] << '\n';
+    }
+
     return 0;
 }
